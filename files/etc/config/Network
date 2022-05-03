@@ -1,0 +1,9 @@
+config interface 'lan'
+    option type 'bridge'
+    option ifname 'eth0'
+    option proto 'static'
+    option ipaddr '192.168.2.42' #主路由192.168.0.1,旁路由我设置192.168.2.42
+    option netmask '255.255.255.0'
+    option ip6assign '60'
+    option gateway '192.168.2.1' # 填写为主路由地址
+    option dns '114.114.114.114 223.5.5.5' # 正常可用的DNS地址
