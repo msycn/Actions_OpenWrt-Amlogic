@@ -144,8 +144,8 @@ jobs:
        # KERNEL_REPO_URL: https://github.com/quanjindeng/Actions_OpenWrt-Amlogic/tree/main/kernel
         KERNEL_VERSION_NAME: 5.17.1
 
-    - name: Create Release
-      uses: msycn/release-action@v1.10.0
+    - name: 发布固件
+      uses: ncipollo/release-action@v1
       with:
         tag: openwrt_N1_${{ env.PACKAGED_OUTPUTDATE }}
         artifacts: ${{ env.PACKAGED_OUTPUTPATH }}/*
