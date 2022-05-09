@@ -5106,11 +5106,11 @@ CONFIG_PACKAGE_luci-lib-nixio_openssl=y
 # end of 6. Libraries
 
 CONFIG_PACKAGE_default-settings=y
-CONFIG_PACKAGE_luci-i18n-adguardhome-zh-cn=y
+# CONFIG_PACKAGE_luci-i18n-adguardhome-zh-cn=y
 # CONFIG_PACKAGE_luci-i18n-adguardhome-zh_Hans is not set
 CONFIG_PACKAGE_luci-i18n-aliyundrive-fuse-zh-cn=y
 # CONFIG_PACKAGE_luci-i18n-aliyundrive-fuse-zh_Hans is not set
-CONFIG_PACKAGE_luci-i18n-aliyundrive-webdav-zh-cn=y
+# CONFIG_PACKAGE_luci-i18n-aliyundrive-webdav-zh-cn=y
 # CONFIG_PACKAGE_luci-i18n-aliyundrive-webdav-zh_Hans is not set
 CONFIG_PACKAGE_luci-i18n-amlogic-zh-cn=y
 # CONFIG_PACKAGE_luci-i18n-amlogic-zh_Hans is not set
@@ -5270,7 +5270,7 @@ CONFIG_PACKAGE_luci-i18n-uhttpd-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-upnp-zh-cn=y
 # CONFIG_PACKAGE_luci-i18n-upnp-zh-tw is not set
 CONFIG_PACKAGE_luci-i18n-vsftpd-zh-cn=y
-CONFIG_PACKAGE_luci-i18n-wolplus-zh-cn=y
+# CONFIG_PACKAGE_luci-i18n-wolplus-zh-cn=y
 # CONFIG_PACKAGE_luci-i18n-wolplus-zh_Hans is not set
 # CONFIG_PACKAGE_my-default-settings is not set
 # end of LuCI
